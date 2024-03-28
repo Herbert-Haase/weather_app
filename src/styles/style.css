@@ -16,6 +16,17 @@
   text-align: center;
 }
 
+#country {
+  font-size: 30px;
+}
+#city {
+  font-size: 20px;
+}
+
 #container div * {
   margin-bottom: 10px;
+}
+
+img {
+  height: 250px;
 }
