@@ -1,0 +1,21 @@
+#container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#temp_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#country,
+#city,
+#weather {
+  text-align: center;
+}
+
+#container div * {
+  margin-bottom: 10px;
+}

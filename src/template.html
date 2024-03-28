@@ -5,5 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <div>
+        <h2 id="country"></h2>
+        <h3 id="city"></h3>
+        <img src="#" alt="weather" />
+        <div id="weather"></div>
+        <div id="temp_container">
+          <div id="display_temp"></div>
+          <select name="temperature" id="temperature">
+            <option value="temp_c">Celsius</option>
+            <option value="temp_f">Fahrenheit</option>
+          </select>
+        </div>
+        <input
+          type="text"
+          name="location"
+          id="location"
+          placeholder="Your City"
+        />
+        <button id="getWeather">get weather</button>
+      </div>
+    </div>
+  </body>
 </html>
